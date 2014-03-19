@@ -1,0 +1,30 @@
+html, body {
+	height: 100%;
+	width: 100%;
+    margin: 0;
+    padding: 0;
+	background-color: #551515;
+}
+
+.article h2{
+    font-family: Helvetica, Verdana;
+    color: #000;
+    z-index: 200;
+}
+
+.content {
+    position: absolute;
+    left: 50%;
+    margin-left: -450px;
+	
+}
+
+.article {
+	background-color: rgba(0,0,0,0);
+	position: absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #000;
+    top: 20%;
+    left: 30%;
+	z-index: 100;
+}
