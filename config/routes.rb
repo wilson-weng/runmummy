@@ -1,4 +1,6 @@
 Runmummy::Application.routes.draw do
+  resources :users
+
   get "lab/love"
   get "main/entry"
   # The priority is based upon order of creation: first created -> highest priority.
